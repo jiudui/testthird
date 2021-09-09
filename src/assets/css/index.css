@@ -1,0 +1,1392 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+i {
+    font-style: normal;
+}
+
+.home {
+    width: 1349px;
+    overflow: hidden;
+background-color: #f6f6f8;
+}
+
+/* header部分 */
+.header {
+    background-color: #202329;
+    padding: 0 80px;
+}
+
+header .nav {
+    height: 49px;
+}
+
+.queer,
+.control {
+    display: inline-block;
+}
+
+.queer {
+    margin-right: 139px;
+}
+
+.queer a {
+    font-size: 14px;
+    line-height: 49px;
+}
+
+.queerlogo {
+    display: inline-block;
+    width: 110px;
+    height: 36px;
+    background: url(https://static.zhipin.com/zhipin-geek/v447/web/geek/images/logo-2x.png) 3px 7px no-repeat;
+    background-size: 105px 19px;
+    vertical-align: middle;
+}
+
+.cityIcon {
+    color: #00d7c6;
+    margin-left: 5px;
+}
+.cityIcon i {
+    display: inline-block;
+    height: 23px;
+    width: 15px;
+    vertical-align: middle;
+    line-height: 23px;
+}
+
+.cityChange {
+    margin: 0 10px;
+}
+
+.queerMain {
+    display: inline-block;
+    position: relative;
+}
+.queerMain a:hover{
+    color: #00d7c6;
+}
+
+.queerMain li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.queerMain .active {
+    color: #00d7c6!important;
+}
+
+.queerMain .new::after {
+    width: 31px;
+    height: 15px;
+    background-color: #ef505e;
+    font-size: 10px;
+    color: #fff;
+    content: 'New';
+    font-weight: bold;
+    border-radius: 10px;
+    position: absolute;
+    top: 6px;
+    left: 135px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.queerMain .hot::after {
+    width: 31px;
+    height: 15px;
+    background-color: #ef505e;
+    font-size: 10px;
+    color: #fff;
+    content: 'Hot';
+    font-weight: bold;
+    border-radius: 10px;
+    position: absolute;
+    top: 6px;
+    left: 393px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.control {
+    font-size: 14px;
+}
+.control .active {
+    color: #00d7c6;
+}
+.control a,
+.control button {
+    margin: 0 10px;
+
+}
+.control button:hover {
+    color: #00d7c6;
+}
+.control a:hover {
+    color: #00d7c6;
+}
+
+.control .hot::after {
+    width: 31px;
+    height: 15px;
+    background-color: #ef505e;
+    font-size: 10px;
+    color: #fff;
+    content: 'Hot';
+    font-weight: bold;
+    border-radius: 10px;
+    position: absolute;
+    top: 6px;
+    right: 283px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.control button {
+    width: 50px;
+    height: 25px;
+    background-color: transparent;
+    border: 1px solid #5dd5c8;
+    border-radius: 12.5px;
+    color: #fff;
+    overflow:hidden;
+    white-space: nowrap;
+}
+
+/* contain部分 */
+.contain {
+    width: 1349px;
+    background: #f6f6f8;
+}
+
+.containNav {
+    height: 120px;
+    background-color: #5dd5c8;
+    padding: 0 100px;
+
+}
+
+.logo {
+    vertical-align: middle;
+
+
+    display: inline-block;
+    margin-right: 300px;
+    height: 120px;
+}
+
+.logo img {
+    display: inline-block;
+    vertical-align: middle;
+    height: 120px;
+    line-height: 120px;
+}
+
+.containNav .input {
+    vertical-align: middle;
+    margin-right: 2px;
+    display: inline-block;
+    height: 120px;
+}
+
+.containNav .input .inputLogo {
+    margin: 22px 0 12px;
+}
+
+.input img {
+    vertical-align: middle;
+    height: 26px;
+    line-height: 26px;
+}
+
+.input input {
+    vertical-align: middle;
+    width: 116px;
+    height: 24px;
+    margin-right: 6px;
+    border: none;
+    padding: 5px 40px 5px 10px;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+.obtain {
+    display: inline-block;
+    position: relative;
+}
+.obtain input {
+    vertical-align: middle;
+    width: 116px;
+    height: 24px;
+    border: none;
+    margin-right: 6px;
+    padding: 5px 40px 5px 10px;
+    border: 1px solid #fff;
+    outline: none;
+}
+.gain {
+    /* display: inline-block; */
+    content: '获取';
+    width: 30px;
+    height: 14px;
+    font-size: 14px;
+    padding: 5px 3px;
+
+    text-align: center;
+    line-height: 100%;
+    color: #54cbc4;
+    position: absolute;
+    top: 6px;
+    right: 11px;
+    cursor: pointer;
+}
+
+.gain:hover {
+    color: #54cbc4;
+}
+
+.input button {
+    vertical-align: middle;
+    border: 1px solid #fff;
+    width: 82px;
+    height: 36px;
+    padding: 5px 4px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 12px;
+}
+
+/* contain search   */
+.contain .search {
+    width: 1349px;
+    position: relative;
+}
+
+.searchButton {
+    width: 934px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 0;
+    margin-top: 25px;
+}
+
+.searchSelection {
+    display: inline-block;
+    width: 794px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+}
+
+.searchSelection:hover {
+    border-top: 1px solid #00d7c6;
+    border-bottom: 1px solid #00d7c6;
+    border-left: 1px solid #00d7c6;
+}
+
+.selection {
+    display: inline-block;
+    width: 108px;
+    height: 28px;
+    vertical-align: middle;
+    padding: 9px 15px 11px;
+    font-size: 16px;
+    color: #61687c;
+    text-align: left;
+    line-height: 28px;
+    position: relative;
+}
+
+.selection::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 17px;
+    border-top: 3px solid red;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+
+}
+
+.search input {
+    display: inline-block;
+    width: 618px;
+    height: 28px;
+    vertical-align: middle;
+    border: none;
+    outline: none;
+    padding: 10px 19px;
+    font-size: 16px;
+}
+
+.search button {
+    width: 138px;
+    height: 50px;
+    background-color: #5dd5c8;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: normal;
+    border: 1px solid #00d7c6;
+    vertical-align: middle;
+}
+
+.searchKeyWord {
+    width: 934px;
+    height: 47px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.searchKeyWord a {
+    display: inline-block;
+    margin-left: 20px;
+    color: #00c2b3;
+}
+
+.searchTitle {
+    color: #9fa3b0;
+}
+
+/* content部分 */
+.contain .content {
+    width: 1184px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.contentForm {
+    height: 340px;
+    position: absolute;
+    top: 301px;
+    left: 87px;
+}
+
+.contentForm ul {
+    display: inline-block;
+}
+
+.contentForm ul li {
+    width: 344px;
+    height: 43px;
+    background-color: #fff;
+    text-align: left;
+    line-height: 41px;
+    padding: 0 20px;
+    font-size: 13px;
+    position: relative;
+}
+
+.content .contentForm ul .contentFormFirstli:hover {
+    background-color: #00d7c6;
+    color: #fff;
+}
+
+.content .contentForm ul .contentFormFirstli:hover b {
+    color: #fff;
+}
+
+.content .contentForm ul .contentFormFirstli:hover a {
+    color: #fff;
+}
+
+.content .contentForm ul .contentFormFirstli:hover::after {
+    color: #fff;
+}
+
+.content .contentForm ul .contentFormLastli:hover {
+    background-color: #00d7c6;
+    color: #fff;
+}
+
+.content .contentForm ul .contentFormLastli:hover::after {
+    color: #fff;
+}
+
+.contentForm ul li::after {
+    content: '>';
+    color: #ccc;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.contentForm ul li b {
+    color: #414a60;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.contentForm ul li a {
+    color: #62687c;
+    margin-left: 20px;
+}
+
+.contentsevenlist {
+    border-bottom: 1px dashed #ccc;
+}
+
+.contentFormFirstli:hover .contentFormList {
+    display: block;
+    z-index: 1;
+}
+
+.contentForm .contentFormList {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 384px;
+    width: 658px;
+    padding: 20px 20px 30px 10px;
+    background-color: #fff;
+}
+
+.contentFormList dd {
+    padding-left: 20px;
+    font-size: 0;
+}
+
+.contentFormList p {
+    font-size: 15px;
+    color: #61687c;
+    padding-left: 20px;
+    font-weight: 800;
+}
+
+.contentFormList div {
+    display: inline-block;
+}
+
+.contentForm .contentFormFirstli .contentFormList .contentFormListLeft {
+    width: 124px;
+    /* height: 28px; */
+    color: #8d92a1;
+    font-size: 13px;
+    vertical-align: top;
+    text-align: left;
+    line-height: 28px;
+}
+
+.contentForm .contentFormFirstli .contentFormList .contentFormListRight {
+    width: 466px;
+    text-align: left;
+    line-height: 28px;
+    border-bottom: 1px solid #f5f6f5;
+}
+
+.contentForm .contentFormFirstli .contentFormList .contentFormListRight a {
+    display: inline-block;
+    color: #61687c !important;
+    font-size: 13px;
+    margin-right: 25px;
+    margin-left: 0;
+}
+.contentForm .contentFormFirstli .contentFormList .contentFormListRight a:hover {
+    color: #00d7c6 !important;
+} 
+.content .contentForm  .contentFormListHidden {
+    display: none;
+    position: absolute;
+    top: 299px;
+    left: 0px;
+}
+/* .content  .contentForm .contentFormLastli{
+    display: block
+} */
+.content  .contentForm  .leave{
+    display: block
+}
+.content  .contentForm  .move{
+    display: none;
+}
+
+.contentFormListHidden .hiddenFirst {
+    background-color: red;
+    border: none;
+}
+
+.contentFormListHidden li a {
+    color: black;
+}
+
+.contentFormListHidden li a:hover {
+    color: black;
+}
+
+.middle {
+    width: 784px;
+    height: 340px;
+    margin-left: 485px;
+    display: flex;
+}
+
+.middle .picList {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle .picList li {
+    padding-right: 2px;
+    padding-bottom: 2px;
+}
+.middle .picList .picListMain {
+    flex: 2;
+}
+.picList a img {
+    display: block;
+}
+.picList li{
+    position: relative;
+}
+.picList li:hover::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.1);
+}
+.middle .picList .picListSlave {
+    flex: 1;
+}
+
+.middle .minPicList {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle .minPicList li {
+    flex: 1;
+    display: block;
+    padding-right: 2px;
+    padding-bottom: 2px;
+}
+
+.middle .minPicList li img {
+    display: block;
+}
+.minPicList li{
+    position: relative;
+}
+.minPicList li:hover::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.1);
+}
+
+/* post部分 */
+.post {
+    width: 1349px;
+    margin-top: 30px;
+}
+
+.title {
+    width: 300px;
+    height: 30px;
+    font-size: 24px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+}
+
+.title::before {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+    margin: 0 10px;
+    vertical-align: middle;
+    background-color: #d1d4db;
+}
+
+.title::after {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+    margin: 0 10px;
+    vertical-align: middle;
+    background-color: #d1d4db;
+}
+
+.postKeyWord {
+    width: 1184px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.word {
+    height: 50px;
+    background-color: #fff;
+    line-height: 50px;
+}
+
+.word ul {
+    /* display: flex;
+    justify-content: space-around; */
+    display: block;
+    padding: 0 30px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.word li {
+    position: relative;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    color: #8d92a1;
+    cursor: pointer;
+    margin-right: 79px;
+    box-sizing: border-box;
+}
+.word  .active {
+    box-sizing: border-box;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #00d7c6!important;
+    /* border-bottom: 4px solid #00d7c6; */
+    position: relative;
+}
+.word  .active::after {
+    content:'';
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    top: 44px;
+    left: 0px;
+    background-color: #00d7c6;
+}
+.card {
+    width: 1184px;
+    border-right-color: transparent;
+}
+.card ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card li {
+    display: inline-block;
+    margin: 10px 0;
+}
+.card li .cardwhite {
+    width: 344px;
+    height:98px;
+    padding: 16px 20px;
+    background-color: #fff;
+}
+.cardicontop {
+    color: #414a60;
+    font-size: 15px;
+}
+.cardicontop a{
+    display: inline-block;
+}
+
+.cardtext {
+    display: inline-block;
+    max-width: 200px;
+    font-size: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.cardicon {
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    background: url("https://static.zhipin.com/zhipin-geek/v450/web/geek/images/guide-add-download-icon.png") no-repeat;
+    background-size: 15px 13px;
+    vertical-align: middle;
+}
+.cardicon:hover {
+    background: url("https://static.zhipin.com/zhipin-geek/v450/web/geek/images/guide-add-download-icon-hover.png") no-repeat;
+    background-size: 15px 13px;
+}
+.cardmoney {
+    display: inline-block;
+    color: #fd7240;
+    font-size: 15px;
+    margin-left: 27px;
+}
+.cardspan {
+    font-size: 13px;
+    color: #8d8d8d;
+}
+.cardlocation .cardspan span{
+    display: inline-block;
+    height: 12px;
+    width: 1px;
+    background-color: #8d8d8d;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+.cardbottom {
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid #eef0f5;
+    margin-top: 9px;
+    padding-top: 3x;
+}
+.cardbottom a{
+    display: inline-block;
+}
+.cardbottom img {
+    width: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.cardbottom a span{
+    display: inline-block;
+    max-width: 90px;
+    overflow: hidden;
+    font-size: 13px;
+    text-emphasis: ellipsis;
+    color: #8d92a1;
+    vertical-align: middle;
+}
+.cardbottom .cardbottomtext {
+    display: inline-block;
+    margin: 0 10px 0 5px;
+    vertical-align: middle;
+    color: #61687c;
+}
+.cardnone {
+    margin: 0 5px 0 5px;
+}
+.cardline {
+    width: 1px;
+    height: 13px;
+    background-color: #61687c;
+}
+.cardwhite:hover .cardtext {
+    color: #00d7c6;
+}
+.post .postmore {
+    display: block;
+    font-size: 15px;
+    width: 216px;
+    height: 32px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    background-color: #5dd5c8;
+    margin-top: 10px;
+}
+.recruiting {
+    width: 1184px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.busWord {
+    width: 1164px;
+    height: 50px;
+    background-color: #fff;
+    line-height: 50px;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.busWord a{
+    display: inline-block;
+    color: #00d7c6 !important;
+}
+.busWord span{
+    display: inline-block;
+    height: 47px;
+    border-bottom: 3px solid #00d7c6;
+}
+.busCard {
+    width: 1184px;
+    height: 168px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+.busCard a {
+    display: inline-block;
+    /* margin-right: 2px; */
+    /* margin-bottom: 4px; */
+    position: relative;
+}
+.busCard a img{
+    display: inline-block;
+    width: 194px;
+    height: 80px;
+}
+.busCard a:hover  .model{
+    display: block;
+}
+.busCard .model {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0,0,0,0.3);
+}
+.leftbutton {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 120px;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    font-size: 34px;
+    text-align: center;
+    line-height: 120px;
+}
+.rightbutton {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 120px;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    font-size: 34px;
+    text-align: center;
+    line-height: 120px;
+    cursor: pointer;
+}
+.footer {
+    width: 1349px;
+    padding-top: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.footerbig {
+    width: 1184px;
+    margin: 0 auto;
+}
+
+.footerList {
+    display: flex;
+}
+
+.footerList dl {
+    flex: 1.5;
+}
+
+.footerList dl dt {
+    font-size: 14px;
+    color: #414a60;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.footerList dl dd a {
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    color: #8d92a1;
+    height: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footerList dl dd a:hover {
+    color: #00d7c6;
+}
+
+.footerList .footercompany {
+    flex: 2;
+}
+
+.footerList .footerImg {
+    flex: 3;
+    text-align: right;
+}
+
+.footerList .footerImg dt img {
+    width: 88px;
+}
+
+.footerList .footerImg p {
+    font-size: 13px;
+    width: 100%;
+    color: #8d92a1;
+    height: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footerList .footerImg p span {
+    padding-left: 5px;
+}
+
+.footerImg dt img {
+    width: 88px;
+}
+
+.side {
+    margin-top: 30px;
+    width: 900px;
+    height: 52px;
+    font-size: 12px;
+}
+
+.sidefirst {
+    display: inline-block;
+    color: #8d92a1;
+}
+
+.sidefirst span {
+    margin-right: 15px;
+}
+
+.side .sidefirst a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #414a60;
+    font-size: 12px;
+}
+
+.side .sideicon {
+    display: inline-block;
+    font-size: 12px;
+    color: #414a60;
+    margin-right: 10px;
+}
+
+.side a img {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+
+.sidesecond {
+    margin-top: 10px;
+}
+
+.lastside {
+    color: #8d92a1;
+}
+
+.side .hovera:hover {
+    color: #00d7c6;
+}
+
+/* -----------------登录页面-------------------------- */
+.wrapper {
+    width: 1349px;
+    height: 700px;
+    background-color: #00d7c6;
+    padding-top: 30px;
+}
+
+.loginfrom {
+    width: 740px;
+    height: 574px;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.loginfromList {
+    flex: 1;
+    padding: 50px 0 0 35px;
+    background-color: #f8fcff;
+}
+
+.loginfromInput {
+    flex: 2.5;
+}
+
+.fromLink {
+    display: block;
+    margin-top: 65px;
+}
+
+.test {
+    margin-top: 0;
+}
+
+.fromLink img {
+    width: 42px;
+    height: 42px;
+    vertical-align: middle;
+}
+
+.fromParse {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.fromLink p {
+    color: #00c2b3;
+    font-size: 14px;
+}
+
+.code {
+    width: 100%;
+    height: 68px;
+    background-color: #fff;
+    text-align: right;
+    line-height: 68px;
+}
+
+.loginfromInput .code .text {
+    vertical-align: middle;
+    display: inline-block;
+    width: 117px;
+    height: 30px;
+    background-color: #5dd5c8;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+    box-shadow: 0 1px 7px 0 rgb(93 213 200 / 20%);
+    position: relative;
+}
+
+.loginfromInput .code .text::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 117px;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid #5dd5c8;
+}
+
+.code a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: 12px;
+    position: relative;
+    background: url('https://static.zhipin.com/zhipin-geek/v449/web/geek/images/sign/sign_icon_sprites.png') -70px -5px no-repeat;
+    background-size: 95px 65px;
+}
+
+.code a:hover {
+    background: url('https://static.zhipin.com/zhipin-geek/v449/web/geek/images/sign/sign_icon_sprites.png') -40px -5px no-repeat;
+    background-size: 95px 65px;
+}
+
+.loginInputForm {
+    width: 324px;
+    height: 425px;
+    margin: 0 auto;
+    /* padding: 10px 10px; */
+}
+
+.inputFormButton {
+    margin: 3px 0;
+    margin-bottom: 0;
+    width: 324px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputFormButton div {
+    display: inline-block;
+    border: 1px solid rgba(227, 231, 237, 1);
+    text-align: center;
+    line-height: 42px;
+    width: 152px;
+    height: 42px;
+    color: #414a60;
+    font-size: 14px;
+}
+
+.inputFormButton div:hover {
+    border: 1px solid #00d7c6;
+    color: #00d7c6;
+}
+
+.inputFormButton .acquiesce {
+    border: 1px solid #00d7c6;
+    color: #00d7c6;
+}
+
+.inputFormInput {
+    width: 100%;
+    margin-top: 30px
+}
+
+.formnumber {
+    font-size: 0;
+    border: 1px solid rgba(227, 231, 237, 1);
+}
+
+.formnumber .formicon {
+    display: inline-block;
+    width: 40px;
+    height: 39px;
+    text-align: center;
+    line-height: 39px;
+    vertical-align: middle;
+    font-size: 14px;
+    color: rgba(227, 231, 237, 1);
+}
+
+.formNumber {
+    display: inline-block;
+    width: 62px;
+    background-color: #fff;
+    border: none;
+    vertical-align: middle;
+    height: 39px;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.formNumber i {
+    color: rgba(227, 231, 237, 1);
+    font-size: 14px;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.formnumber input {
+    width: 220px;
+    height: 39px;
+    border: none;
+    outline: none;
+    vertical-align: middle;
+}
+
+.formnumber input::-webkit-input-placeholder {
+    color: rgba(227, 231, 237, 1);
+}
+
+.formnumber:hover {
+    border: 1px solid #00d7c6;
+}
+
+.formnumber:hover .formicon {
+    color: #00d7c6;
+}
+
+.secondformnumber {
+    font-size: 0;
+    margin-top: 30px;
+    border: 1px solid rgba(227, 231, 237, 1);
+}
+
+.secondformnumber .secondformicon {
+    display: inline-block;
+    width: 40px;
+    height: 39px;
+    text-align: center;
+    line-height: 39px;
+    vertical-align: middle;
+    font-size: 14px;
+    color: rgba(227, 231, 237, 1);
+}
+
+.secondformnumber input {
+    width: 282px;
+    height: 39px;
+    border: none;
+    outline: none;
+    vertical-align: middle;
+}
+
+.secondformnumber input::-webkit-input-placeholder {
+    color: rgba(227, 231, 237, 1);
+}
+
+.secondformnumber:hover {
+    border: 1px solid #00d7c6;
+}
+
+.secondformnumber:hover .secondformicon {
+    color: #00d7c6;
+}
+
+.struts {
+    margin-top: 30px;
+    background-image: linear-gradient(180deg, #fff 0, #f3f3f3 100%);
+}
+
+.struts:hover {
+    background-image: linear-gradient(180deg, #f3f3f3 0, #fff 100%);
+
+}
+
+.struts a {
+    display: block;
+    position: relative;
+    color: #666;
+}
+
+.struts .circle {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #3873ff;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.check {
+    width: 136px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.inputFormInput .button {
+    width: 324px;
+    height: 42px;
+    background-color: #00d7c6;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+    border: none;
+    margin-top: 30px;
+}
+
+.inputFormFooter {
+    margin-top: 20px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.inputFormFooter a {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    color: #00d7c6;
+}
+
+.inputFormFooter a:hover {
+    color: #00d7c6;
+}
+
+.inputFormFootericon {
+    width: 27.33%;
+    background: url(https://static.zhipin.com/zhipin-geek/v449/web/geek/images/sign/sign_icon_sprites.png) -61px -35px no-repeat;
+    background-size: 95px 65px;
+    position: relative;
+}
+
+.inputFormFootericon span {
+    position: absolute;
+    top: 0px;
+    left: 31px;
+    color: rgba(141, 146, 161, 1);
+}
+
+.inputFormFootericon span:hover {
+    color: #00d7c6;
+}
+
+.addressable {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    color: rgba(141, 146, 161, 1);
+}
+
+.addressable a {
+    color: #00d7c6;
+}
+
+.addressable a:hover {
+    color: #00d7c6;
+}
+
+footer {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: rgba(141, 146, 161, 1);
+}
+
+footer a:hover {
+    color: rgba(141, 146, 161, 1);
+}
+
+footer p {
+    text-align: center;
+}
+
+.last {
+    margin-top: 5px;
+}
+
+.login .wrapper {
+    position: relative;
+}
+
+.heatRay {
+    position: absolute;
+    top: 44px;
+    right: 44px;
+    color: white;
+    opacity: .7;
+}
+
+.heatRay span {
+    font-size: 0;
+}
+
+.heatRay span {
+    font-size: 14px;
+}
